@@ -8,7 +8,7 @@ int main (int argc, char **argv) {
 	char *patch = argv[3];
 	char *dest = argv[4];
 
-	unsigned int *buffer;
+	unsigned char *buffer;
 	int origsize;
 	int readed;
 
